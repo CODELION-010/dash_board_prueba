@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <nav class="main-menu">
+          <h1>Fitness App</h1>
+          <img class="logo" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/4cfdcb5a-0137-4457-8be1-6e7bd1f29ebb" alt="Logo aplicativo" />
+          <ul>
+            <li class="nav-item active">
+              <b></b>
+              <b></b>
+              <a href="#">
+                <i class="fa fa-house nav-icon"></i>
+                <span class="nav-text">Home</span>
+              </a>
+            </li>
+  
+            <li class="nav-item">
+              <b></b>
+              <b></b>
+              <a href="#">
+                <i class="fa fa-user nav-icon"></i>
+                <span class="nav-text">Profile</span>
+              </a>
+            </li>
+  
+            <li class="nav-item">
+              <b></b>
+              <b></b>
+              <a href="#">
+                <i class="fa fa-calendar-check nav-icon"></i>
+                <span class="nav-text">Schedule</span>
+              </a>
+            </li>
+  
+            <li class="nav-item">
+              <b></b>
+              <b></b>
+              <a href="#">
+                <i class="fa fa-person-running nav-icon"></i>
+                <span class="nav-text">Activities</span>
+              </a>
+            </li>
+  
+            <li class="nav-item">
+              <b></b>
+              <b></b>
+              <a href="#">
+                <i class="fa fa-sliders nav-icon"></i>
+                <span class="nav-text">Settings</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+  
+        <section class="content">
+          <div class="left-content">
+            <div class="activities">
+             <h1>Popular Activities</h1>
+              <div class="activity-container">
+                 <div class="image-container img-one">
+
+                            <!-- Formulario para registrar el monto base -->
+                           <div id="mont_base" >
+                             <h2>Registra Monto Base</h2>
+                             <form action="registrar_base.php" method="post">
+                                 <input type="number" name="monto_base" id="monto_base" required="yes" min="1000000" >
+                                 <button type="submit" class="btn btn-outline-info" onclick="sinvalor()" >Registrar</button>
+                             </form>
+                           </div>
+                            <h3>Tennis</h3>
+                      </div>
+                 </div>
+              </div>
+            </div>
+        </section>
+      </main>
+      <script src="main.js"></script>
+</body>
+</html>
